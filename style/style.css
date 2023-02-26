@@ -1,0 +1,28 @@
+form {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  input[type="text"],input[type="date"],input[type="email"],
+  select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: darkblue;
+  }
